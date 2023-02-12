@@ -4,8 +4,9 @@
      margin: 0;
      padding: 0;
      overflow: hidden;
+     -webkit-print-color-adjust: exact; /*economy | exact*/
+     color-adjust: exact;  
    }
-
    .main-container {
      display: grid;
      grid-gap: 0.4rem;
@@ -13,13 +14,14 @@
      grid-template-areas:
        "header header"
        "sidebar main"
-       "sidebar footer";
+       "sidebar footer"; 
    }
 
    .header-container {
      grid-area: header;
-     background-color: #59A4A0;
+     background-color: #59A4A0 !important;
      border-radius: 10px;
+     color-adjust: exact;
    }
 
    .personal-data {
@@ -110,6 +112,11 @@
    }
    
    a {
-     color: black;
+     color: black; 
    }
+
+   @page {
+    size: letter; 
+  }
  }
+
