@@ -1,0 +1,115 @@
+ @media print {
+
+   body {
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   }
+
+   .main-container {
+     display: grid;
+     grid-gap: 0.4rem;
+     grid-template-columns: 2fr 8fr;
+     grid-template-areas:
+       "header header"
+       "sidebar main"
+       "sidebar footer";
+   }
+
+   .header-container {
+     grid-area: header;
+     background-color: #59A4A0;
+     border-radius: 10px;
+   }
+
+   .personal-data {
+     grid-area: sidebar;
+     font-size: x-small;
+     border-radius: 10px;
+     border: 0.1rem solid rgb(235, 230, 230);
+
+   }
+
+   .experience-container {
+     grid-area: main;
+     font-size: x-small;
+     border-radius: 10px;
+     border: 0.1rem solid rgb(235, 230, 230);
+   }
+
+   .footer-container {
+     grid-area: footer;
+     font-size: x-small;
+     border-radius: 10px;
+     border: 0.1rem solid rgb(235, 230, 230);
+   }
+
+
+   .titulo {
+     color: #14192D;
+   }
+
+   .paragraph {
+     font-size: small;
+   }
+
+   .small-paragraph {
+     font-size: x-small;
+   }
+
+   .small-thin-paragraph {
+     font-size: x-small;
+     font-weight: 500;
+   }
+
+   .my-photograph {
+     width: 8rem;
+     height: 8rem;
+   }
+
+   .tr table {
+     padding: 0.1rem 0.1rem;
+   }
+
+   .tr {
+     padding: 0.1rem 0.1rem;
+   }
+
+   ul {
+     margin-bottom: 0rem;
+     list-style-type: none;
+     padding: 0;
+   }
+
+
+   p {
+     margin-bottom: 0;
+   }
+
+   .bg-ocre {
+     background-color: #DC9B40;
+     border-bottom-right-radius: 50%;
+     border-bottom-left-radius: 50%;
+   }
+
+   .my-bg-dark {
+     border-radius: 10px;
+     border-bottom: dashed 0.1rem rgb(235, 230, 230);
+     border-top: dashed 0.1rem rgb(235, 230, 230);
+   }
+
+   #icon-skills {
+     width: 1.5rem;
+     height: 1.5rem;
+   }
+
+   svg {
+     fill: black;
+     width: 0.7rem;
+     height: 0.7rem;
+   }
+   
+   a {
+     color: black;
+   }
+ }
