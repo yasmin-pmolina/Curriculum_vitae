@@ -116,6 +116,11 @@
     height: 1rem;
   }
 
+  .experience-container svg {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+
   a {
     color: #59A4A0;
   }
@@ -247,6 +252,11 @@
     fill: #59A4A0;
     width: 0.7rem;
     height: 0.7rem;
+  }
+
+  .experience-container svg {
+    width: 0.6rem;
+    height: 0.6rem;
   }
 
   a {
