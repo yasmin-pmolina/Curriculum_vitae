@@ -124,6 +124,15 @@
     color: #DC9B40;
   }
 
+  .my-bg-dark a{
+    color: rgba(255, 255, 255, 0.657);
+  }
+
+  .my-bg-dark a:hover{
+    /*color: #59A4A0;*/
+    color: #DC9B40;
+  }
+
   #icon-skills {
     width: 1.5rem;
     height: 1.5rem;
@@ -245,6 +254,15 @@
   }
 
   a:hover {
+    color: #DC9B40;
+  }
+  
+  .my-bg-dark a{
+    color: rgba(255, 255, 255, 0.657);
+  }
+
+  .my-bg-dark a:hover{
+    /*color: #59A4A0;*/
     color: #DC9B40;
   }
 }
