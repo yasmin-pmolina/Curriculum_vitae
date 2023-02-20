@@ -1,4 +1,14 @@
 {
+  "applicant":{
+   "name": "Yasmin Molina",
+   "bio": "Desarrollador con interés en la creación de software y firmware para brindar soluciones tecnológicas ajustadas al cliente, con capacidad de integración a equipos de forma rápida"
+  },
+  "contactInfo": [
+    { "type":"phone"   ,  "name":"(+54) 9-11-24082020"      , "link": "(+54) 9-11-24082020"                               },
+    { "type":"mail"    ,  "name":"yasmin.pmolina@gmail.com" , "link": "yasmin.pmolina@gmail.com"                          },
+    { "type":"linkedin",  "name":"linkedin"                 , "link": "https://www.linkedin.com/in/yasmin-patricia-molina"},
+    { "type":"github"  ,  "name":"yasmin-pmolina"           , "link": "https://github.com/yasmin-pmolina"                 }
+  ],
   "education": [
     {
       "entity": "Universidad Nacional Experimental del Táchira",
@@ -68,7 +78,7 @@
             "Desarrollo de Nuevas funcionalidades.",
             "Mantenimiento y depuración de código.",
             "Crear documentación técnica.",
-            "AseProporcionar Workarounds en producción.",
+            "Proporcionar Workarounds en producción.",
             "Soporte Nivel 3."
           ],
           "startDate": "06-2019",
@@ -134,5 +144,30 @@
         }
       ]
     }
-  ]
+  ],
+  "hardSkills":[
+    {"name":"Git",        "level":""},
+    {"name":"JavaScript", "level":"" },
+    {"name":"HTML5",      "level":"" },
+    {"name":"SASS/SCSS",  "level":"" },
+    {"name":"React.js",   "level":"" },
+    {"name":"Bootstrap",  "level":"" },
+    {"name":"JQuery",     "level":"" },
+    {"name":"MySql",      "level":"" },
+    {"name":"PostgreSQL", "level":"" },
+    {"name":"C",          "level":"" },
+    {"name":"C++",        "level":"" },
+    {"name":"C#",         "level":"" },
+    {"name":"Node.js",    "level":"" },
+    {"name":"Qt",         "level":"" },
+    {"name":"Jira",       "level":"" }
+  ],
+  
+  "softSkills":[
+    {"name":"Pensamiento crítico" },
+    {"name":"Trabajo en equipo" },
+    {"name":"Capacidad de aprendizaje" },
+    {"name":"Capacidad de resolución de problemas" },
+    {"name":"Proactiva" }
+  ] 
 }

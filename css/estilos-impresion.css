@@ -5,7 +5,6 @@
      padding: 0;
      overflow: hidden;
      -webkit-print-color-adjust: exact;
-     /*economy | exact*/
      color-adjust: exact;
      color: black;
    }
@@ -119,15 +118,27 @@
    }
 
    #icon-skills {
-     width: 1.5rem;
-     height: 1.5rem;
+     width: 1.2rem;
+     height: 1.2rem;
    }
 
    svg {
-     fill: black;
+     fill: #59A4A0;
      width: 0.6rem;
      height: 0.6rem;
+     margin: 0.2rem 0 0.2rem 0 ;
    }
+
+   .bi.git,.github{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  } 
+
+  .icon-format{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0;
+    padding: 0;
+  }
 
    @page {
      size: letter;
