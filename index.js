@@ -211,16 +211,17 @@ if (candidateData.hasOwnProperty('contactInfo') & Array.isArray(candidateData.co
 
   candidateData.contactInfo.forEach((element) => {
 
+    let iconObj; 
     let icon = LIST_ICONS.filter(item => element.type.toLowerCase() === item.name.toLowerCase());
+    let span = document.createElement('span');
+    span.setAttribute("class", "row");
 
     if (icon.length > 0) {
+       iconObj = create_objet_with_svg(`bi-${icon[0].name.toLowerCase()} icon-format`, `${ASSETS_IMG}${icon[0].icon}`)
+    }else 
+       iconObj = create_objet_with_svg("bi-link icon-format", `${ASSETS_IMG}icon-link.svg`)
 
-      let span = document.createElement('span');
-      span.setAttribute("class", "row pb-1");
-
-      let iconObj = create_objet_with_svg(`bi-${icon[0].name.toLowerCase()} icon-format`, `${ASSETS_IMG}${icon[0].icon}`)
-
-      let href, target;
+    let href, target;
 
       switch (element.type) {
         case "phone":
@@ -239,10 +240,10 @@ if (candidateData.hasOwnProperty('contactInfo') & Array.isArray(candidateData.co
           break;
       }
 
-      let a = create_config_tag_a(href, target, "col m-0 ps-1 pe-0", iconObj, `${element.name}`)
+      let a = create_config_tag_a(href, target, "d-flex align-items-center m-0 p-0", iconObj, `${element.name}`)
       span.appendChild(a);
       contactInfo.appendChild(span);
-    }
+    
   })
 }
 

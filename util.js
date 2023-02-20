@@ -41,7 +41,7 @@ export function create_config_tag_a(href, target, className, icon, texto) {
   a.setAttribute("class", className);
 
   let name = document.createElement('span');
-  name.setAttribute("class", className);
+  name.setAttribute("class","ps-1");
   name.innerText = texto;
 
   a.appendChild(icon);

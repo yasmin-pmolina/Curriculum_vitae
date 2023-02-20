@@ -140,6 +140,10 @@
     padding: 0;
   }
 
+  .contact-info{
+   max-width: 10rem;
+  }
+
    @page {
      size: letter;
    }

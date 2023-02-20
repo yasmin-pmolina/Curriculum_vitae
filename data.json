@@ -7,7 +7,7 @@
     { "type":"phone"   ,  "name":"(+54) 9-11-24082020"      , "link": "(+54) 9-11-24082020"                               },
     { "type":"mail"    ,  "name":"yasmin.pmolina@gmail.com" , "link": "yasmin.pmolina@gmail.com"                          },
     { "type":"linkedin",  "name":"linkedin"                 , "link": "https://www.linkedin.com/in/yasmin-patricia-molina"},
-    { "type":"github"  ,  "name":"yasmin-pmolina"           , "link": "https://github.com/yasmin-pmolina"                 }
+    { "type":"github"  ,  "name":"Yasmin-Pmolina"           , "link": "https://github.com/yasmin-pmolina"                 }
   ],
   "education": [
     {
@@ -19,18 +19,6 @@
   "certifications": [
     {
       "entity": "Open Bootcamp",
-      "name": "Certificado de finalización javascript",
-      "date": "Dic 2022",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81"
-    },
-    {
-      "entity": "Open Bootcamp",
-      "name": "Certificado de finalización HTML y CSS",
-      "date": "Dic 2022",
-      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf"
-    },
-    {
-      "entity": "Open Bootcamp",
       "name": "Certificado de finalización Git",
       "date": "Feb 2023",
       "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/58d2c085-118f-4476-95aa-567aa2a0d25b"
@@ -40,6 +28,18 @@
       "name": "Certificado de finalización Sql",
       "date": "Feb 2023",
       "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/2ba94b07-e837-4143-bc6b-1580ebd80f6d"
+    },
+    {
+      "entity": "Open Bootcamp",
+      "name": "Certificado de finalización javascript",
+      "date": "Dic 2022",
+      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81"
+    },
+    {
+      "entity": "Open Bootcamp",
+      "name": "Certificado de finalización HTML y CSS",
+      "date": "Dic 2022",
+      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf"
     }
   ],
   "languages": [
@@ -136,7 +136,6 @@
             "Levantamiento de información para creación de software de punto de venta.",
             "Desarrollo en el entorno de desarrollo integrado Qt Creator.",
             "Diseño de base de datos MySql.",
-            "Desarrollo de aplicaciones en Escritorio (software).",
             "Pruebas y depuración del funcionamiento del producto."
           ],
           "startDate": "05-2018",
