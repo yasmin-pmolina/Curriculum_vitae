@@ -1,0 +1,154 @@
+@media print {
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    color: black;
+  }
+
+  .main-container {
+    display: grid;
+    grid-gap: 0.2rem;
+    grid-template-columns: 3fr 8fr;
+    grid-template-areas:
+      "header header"
+      "sidebar main"
+      "footer footer";
+  }
+
+  .header-container {
+    grid-area: header;
+    background-color: #59A4A0 !important;
+    border-radius: 10px;
+  }
+
+  .personal-data {
+    grid-area: sidebar;
+    font-size: x-small;
+    border-radius: 10px;
+    border: 0.1rem solid rgb(235, 230, 230);
+  }
+
+  .experience-container {
+    grid-area: main;
+    font-size: x-small;
+    border-radius: 10px;
+    border: 0.1rem solid rgb(235, 230, 230);
+  }
+
+  .footer-container {
+    grid-area: footer;
+    font-size: x-small;
+    border-radius: 10px;
+    border: 0.1rem solid rgb(235, 230, 230);
+  }
+
+  .titulo {
+    font-size: medium;
+  }
+
+  .paragraph {
+    font-size: smaller;
+  }
+
+  .small-paragraph {
+    font-size: x-small;
+  }
+
+  .small-thin-paragraph {
+    font-size: x-small;
+    font-weight: 500;
+  }
+
+  .my-photograph {
+    width: 8rem !important;
+    height: 8rem !important;
+  }
+
+  .tr table {
+    padding: 0.1rem 0.1rem;
+  }
+
+  .tr {
+    padding: 0.1rem 0.1rem;
+  }
+
+  ul,ol {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  li {
+    list-style-type: disc;
+    text-indent: 0rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  li::marker {
+    color: #59A4A0;
+    font-size: 1.2em;
+  }
+
+  .row {
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .bg-ocre {
+    background-color: #DC9B40;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .my-bg-dark {
+    border-radius: 10px;
+    border-bottom: dashed 0.1rem rgb(235, 230, 230);
+    border-top: dashed 0.1rem rgb(235, 230, 230);
+  }
+
+  .icon-skills {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  svg {
+    fill: #59A4A0;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: 0.2rem 0 0.2rem 0 ;
+  }
+
+  .bi.git,.github{
+   filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+ } 
+
+ .icon-format{
+   width: 0.8rem;
+   height: 0.8rem;
+   margin: 0;
+   padding: 0;
+ }
+
+ .icon-format.small{
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+ .contact-info{
+  max-width: 10rem;
+ }
+
+  @page {
+    size: letter;
+  }
+}
