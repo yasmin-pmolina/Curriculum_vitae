@@ -46,9 +46,9 @@ class ContactInfo extends Component {
                             break;
                     }
 
-                    listHtml.push(<span className="d-flex align-items-center m-0 p-0 gap-1">
+                    listHtml.push(<span className="d-flex align-items-center m-0 p-0 gap-1 my-bg-light"  key={`contactInfo-${index}`}>
                         <SvgComponent key={index} contextIcon={contextIcon} name={element.type} className="icon-format small" isIconList='true' />
-                        <a href={href} target={target}>{element.name}</a>
+                        <a href={href} target={target} className="">{element.name}</a>
                     </span>)
                 }
             })

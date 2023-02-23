@@ -8,6 +8,10 @@
     color-adjust: exact;
     color: black;
   }
+  
+  div.navbar-container {
+    display:none;
+  }
 
   .main-container {
     display: grid;

@@ -34,8 +34,6 @@ class SvgComponent extends Component {
           ]
     };
 
-
-
     constructor(props) {
         super(props)
         this.state = {
@@ -43,7 +41,8 @@ class SvgComponent extends Component {
             className: props.className,
             contextIcon: props.contextIcon || this.defaultProps.contextIcon,
             listIcon: props.listIcon || this.defaultProps.listIcon,
-            isIconList: props.isIconList
+            isIconList: props.isIconList,
+            color: props.color
         }
         console.log('CONSTRUCTOR: Cuando se instancia el componente SvgComponent');
     }
@@ -100,7 +99,8 @@ class SvgComponent extends Component {
 }
 
 SvgComponent.propTypes = {
-  data: PropTypes.string,
+    className: PropTypes.string,
+    name: PropTypes.string,
 }
 
 export default SvgComponent
