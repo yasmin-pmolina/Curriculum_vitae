@@ -26,7 +26,7 @@ class Navbar extends Component {
                 <span>
                     <SvgComponent name="spinning-cogs.svg" className="ms-2 icon-logo" />
                     <SvgComponent name="logo.svg" className="me-1 icon-logo-text" />
-                </span>{/*
+                </span>
                     <button className="navbar-toggler text-light me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon button-icon"></span>
                     </button>
@@ -45,7 +45,7 @@ class Navbar extends Component {
                                 </li>
                             </ul>
                         </div>
-                    </div>*/}
+                    </div>
                 </div>
             </nav>
         )
