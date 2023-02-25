@@ -8,7 +8,6 @@ class SoftSkills extends Component {
         this.state = {
             data: props.data,
         }
-        console.log('CONSTRUCTOR: Cuando se instancia el componente SoftSkills');
     }
 
     render() {

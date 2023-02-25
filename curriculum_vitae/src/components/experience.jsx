@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import SvgComponent from './basic/svgComponent.jsx'
 import ListItem from './basic/listComponent.jsx';
 import TableComponent from './basic/TableComponent';
+import { colorIconDefault } from '../consts.jsx';
 
 class Experience extends Component {
 
@@ -19,7 +20,6 @@ class Experience extends Component {
             nameIcon: props.nameIcon || this.defaultProps.nameIcon,
             nameClassIcon: props.nameClassIcon || this.defaultProps.nameClassIcon,
         }
-        console.log('CONSTRUCTOR: Cuando se instancia el componente Experience');
     }
 
     render() {
@@ -56,7 +56,7 @@ class Experience extends Component {
                     <p className="entity">{element.entity}</p>
                     <p className="small-thin-paragraph fst-italic pt-2 time-range p-0 m-0">{period}</p>
                     <span className="small-thin-paragraph fst-italic fw-normal">
-                        <SvgComponent contextIcon={contextIcon} name='icon-place.svg' className="icon-format small" ></SvgComponent>
+                        <SvgComponent contextIcon={contextIcon} name='icon-place.svg' colorIcon={colorIconDefault} className="icon-format small" ></SvgComponent>
                         <span className="place">{element.place}</span>
                     </span>
                 </span>
@@ -81,7 +81,7 @@ class Experience extends Component {
 
         return (
             <div>
-                <span className="ms-2 fw-bolder"><SvgComponent name="icon-briefcase-fill.svg" className="clase-0 icon-format" ></SvgComponent></span>
+                <span className="ms-2 fw-bolder"><SvgComponent name="icon-briefcase-fill.svg" colorIcon={colorIconDefault} className="clase-0 icon-format" ></SvgComponent></span>
                 <span className="ms-2 fw-bolder">EXPERIENCIA</span>
                 <TableComponent headers={headers} rows={rows} verticalHeader={true} horizontalHeaderRowSpan={2} classNameTable="table table-striped table-hover mb-0" />
             </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import SvgComponent from './basic/svgComponent'
+import { colorIconDefault, colorIconHoverDefault } from '../consts';
 
 
 class ContactInfo extends Component {
@@ -14,7 +15,6 @@ class ContactInfo extends Component {
             data: props.data,
             contextIcon: props.contextIcon || this.defaultProps.contextIcon,
         }
-        console.log('CONSTRUCTOR: Cuando se instancia el componente ContactInfo');
     }
 
     render() {
@@ -46,9 +46,10 @@ class ContactInfo extends Component {
                             break;
                     }
 
-                    listHtml.push(<span className="d-flex align-items-center m-0 p-0 gap-1 my-bg-light"  key={`contactInfo-${index}`}>
-                        <SvgComponent key={index} contextIcon={contextIcon} name={element.type} className="icon-format small" isIconList='true' />
-                        <a href={href} target={target} className="">{element.name}</a>
+                    listHtml.push(<span className="d-flex align-items-center m-0 p-0 gap-1 my-bg-light" key={`contactInfo-${index}`}>
+                        <a href={href} target={target} className="">
+                            <SvgComponent key={index} contextIcon={contextIcon} name={element.type} text={element.name}  colorIcon={colorIconDefault} colorHover={colorIconHoverDefault} className="icon-format small me-1" isIconList='true' />
+                        </a>
                     </span>)
                 }
             })

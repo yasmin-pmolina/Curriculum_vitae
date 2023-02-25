@@ -5,22 +5,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './css/App.css';
 import './css/Print.css';
 import defaultData from './models/userData.json'
-import Navbar from './components/navbar';
 import Homepage from './pages/home.jsx';
 import MakeCV from './pages/makeCv';
+import Layout from './components/layout';
 
 
 function App() {
   return (
-
     <div className="App">
-     <div className="navbar-container">
-      <Navbar/> 
-     </div>
      <BrowserRouter>
       <Routes>
-          <Route exact  path="/" element={<Homepage dataView ={defaultData} />} />
-          <Route path="/MakeCV" element={<MakeCV dataView ={defaultData} />} />
+          <Route path="/Curriculum_vitae" element={<Layout><Homepage dataView ={defaultData}/></Layout>} />
+          <Route path="/Curriculum_vitae/MakeCV" element={<Layout><MakeCV dataView ={defaultData} /></Layout>} />
       </Routes>
     </BrowserRouter>
     </div>

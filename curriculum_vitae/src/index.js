@@ -18,14 +18,14 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//reportWebVitals();
 
 
 /**
  * Ajustar los estilos y colores de la pagina 
  */
 window.addEventListener('load', function () {
-
+/*
   //const color = '#DC9B40';//Naranja
   const color = '#59A4A0';//verde agua
   //const color = '#0000ff';//azul
@@ -48,5 +48,5 @@ window.addEventListener('load', function () {
     const filter = result.filter;
 
     element.setAttribute("style", filter)
-  })
+  })*/
 });

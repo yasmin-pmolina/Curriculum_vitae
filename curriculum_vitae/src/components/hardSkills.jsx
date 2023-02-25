@@ -14,7 +14,6 @@ class HardSkills extends Component {
             data: props.data,
             contextIcon: props.contextIcon || this.defaultProps.contextIcon,
         }
-        console.log('CONSTRUCTOR: Cuando se instancia el componente Languages');
     }
 
     render() {

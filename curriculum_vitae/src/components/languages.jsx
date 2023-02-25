@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ListItem from './basic/listComponent';
 import SvgComponent from './basic/svgComponent';
+import { colorIconDefault } from '../consts';
 
 class Languages extends Component {
 
@@ -16,7 +17,6 @@ class Languages extends Component {
             nameIcon: props.nameIcon || this.defaultProps.nameIcon,
             nameClassIcon: props.nameClassIcon || this.defaultProps.nameClassIcon,
         }
-        console.log('CONSTRUCTOR: Cuando se instancia el componente Languages');
     }
 
     render() {
@@ -32,7 +32,7 @@ class Languages extends Component {
         return (
             <span className="">
                 <div className="mb-2 ms-1">
-                    <SvgComponent name="icon-bi-translate.svg" className="me-1 icon-format" />
+                    <SvgComponent name="icon-bi-translate.svg" colorIcon={colorIconDefault} className="me-1 icon-format" />
                     <span className="fw-bolder">IDIOMAS</span>
                 </div>
                 <span className="paragraph"><ListItem data={htmlList} /></span>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { Color, Solver, hexToRgb } from '../../color'
 
 class SvgComponent extends Component {
 
@@ -30,8 +31,8 @@ class SvgComponent extends Component {
             { name: "phone", icon: "icon-phone.svg" },
             { name: "mortarboard", icon: "icon-mortarboard-fill.svg" },
             { name: "place", icon: "icon-place.svg" },
-            { name: "link", icon: "icon-link.svg"}
-          ]
+            { name: "link", icon: "icon-link.svg" }
+        ]
     };
 
     constructor(props) {
@@ -42,57 +43,73 @@ class SvgComponent extends Component {
             contextIcon: props.contextIcon || this.defaultProps.contextIcon,
             listIcon: props.listIcon || this.defaultProps.listIcon,
             isIconList: props.isIconList,
-            color: props.color
+            colorIcon: props.colorIcon,
+            colorHover: props.colorHover,
+            colorIcoUse: props.colorIcon,
+            text: props.text || '',
         }
-        console.log('CONSTRUCTOR: Cuando se instancia el componente SvgComponent');
     }
 
-    /***
-    componentWillMount() {
-        console.log('WillMount: Antes del montaje del componente');
-    }
-    */
-    componentDidMount() {
-        console.log('DidMount: Justo al del montaje del componente, antes de renderizarlo')
+     handleMouseOver = () => {
+        const {colorHover} = this.state;
+        if(colorHover) this.setState({colorIcoUse: colorHover});
+     }
 
+     handleMouseEnter = () => {
+     }
+
+     handleMouseLeave= () => {
+        const {colorIcon} = this.state;
+         this.setState({colorIcoUse: colorIcon});
+     }
+
+     handleMouseEnterImg = () => {
+     }
+
+     handleMouseLeaveImg = () => {
+     }
+
+    setColor(colorIcon) {
         
-    }
-   /*
-    componentWillReceiveProps(nextProps) {
-        console.log('WillReceiveProps: Si va a recibir nuevas props')
+        let filter = " ";
+
+        if (colorIcon) {
+            const rgbColor = [];
+            rgbColor.push(hexToRgb(colorIcon));
+            const colorc = new Color(rgbColor[0][0], rgbColor[0][1], rgbColor[0][2]);
+            const solver = new Solver(colorc);
+            const result = solver.solve();
+            filter = result.style;
+        }
+        return filter;
     }
 
-    shouldComponentUpdate(nextProps, nextState) {
-        
-        // Controlar si el componente debe o no actualizarse
-        // return true / false
-        return true;
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-        console.log('WillUpdate: Justo antes de actualizarse');
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-        console.log('DidUpdate: Justo después de actualizarse');
-
-       
-    }
-
-    componentWillUnmount() {
-        console.log('WillUnmount: Justo antes de desaparecer')
-    }
-   */
     render() {
 
-        const {contextIcon, name, isIconList, className, listIcon } = this.props;
+        const { contextIcon, name, isIconList, className, listIcon } = this.props;
         const iconName = listIcon.filter(item => name.toLowerCase() === item.name.toLowerCase());
+        let icon = ''; 
+       
+        const {colorIcoUse, text} = this.state;
 
-        const icon = contextIcon(`./${ isIconList ? iconName[0]?.icon: name }`);
+        try {
+            const iconSVG = contextIcon(`./${isIconList ? (iconName[0]?.icon || ' ' ) : name}`);
+            const filter = this.setColor(colorIcoUse);
+            icon = iconSVG ? <img src={iconSVG} alt={name} className={className} style={{filter}} 
+              onMouseEnter={this.handleMouseOverImg}
+              onMouseLeave={this.handleMouseLeaveImg}
+               /> : ''
+          } catch {
+            console.log(`Error: Ocurrio un error al intentar agregar el icono: {name}` );
+         }
 
         return (
-            <span className={ className ? className : "icon-format"}> 
-               {icon ?  <img src={icon} alt={name} className={className} /> : ''}  
+            <span className={className ? className : "icon-format"} 
+              onMouseOver={this.handleMouseOver}
+              onMouseEnter={this.handleMouseOver}
+              onMouseLeave={this.handleMouseLeave}
+               >
+              {icon}<span>{text}</span>
             </span>
         )
     }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SvgComponent from './svgComponent';
+import { colorIconDefault } from '../../consts';
 
 export default function FileUploader(props) {
 
@@ -31,9 +32,9 @@ export default function FileUploader(props) {
                 onClick={handleSelectFileButtonClick}
             >
                 <span  style={{ cursor: 'pointer'}}>
-                    {!selectedFile && <SvgComponent contextIcon={contextIcon} name='icon-plus-circle.svg' className="icon-format m-1" ></SvgComponent>}
+                    {!selectedFile && <SvgComponent contextIcon={contextIcon} name='icon-plus-circle.svg' colorIcon={colorIconDefault} className="icon-format m-1" ></SvgComponent>}
                     {!selectedFile && <span>Seleccione un archivo</span>}
-                    {selectedFile && <SvgComponent contextIcon={contextIcon} name='icon-file-image.svg' className="icon-format m-1" ></SvgComponent>}
+                    {selectedFile && <SvgComponent contextIcon={contextIcon} name='icon-file-image.svg' colorIcon={colorIconDefault} className="icon-format m-1" ></SvgComponent>}
                     {selectedFile && <span>Archivo seleccionado: {selectedFile.name}</span>}
                 </span>
             </span>

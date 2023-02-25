@@ -161,6 +161,7 @@ export class Solver {
       values: result.values,
       loss: result.loss,
       filter: this.css(result.values),
+      style: this.toStyle(result.values)
     };
   }
 
@@ -272,6 +273,13 @@ export class Solver {
       return Math.round(filters[idx] * multiplier);
     }
     return `filter: invert(${fmt(0)}%) sepia(${fmt(1)}%) saturate(${fmt(2)}%) hue-rotate(${fmt(3, 3.6)}deg) brightness(${fmt(4)}%) contrast(${fmt(5)}%);`;
+  }
+
+  toStyle(filters) {
+    function fmt(idx, multiplier = 1) {
+      return Math.round(filters[idx] * multiplier);
+    }
+    return `invert(${fmt(0)}%) sepia(${fmt(1)}%) saturate(${fmt(2)}%) hue-rotate(${fmt(3, 3.6)}deg) brightness(${fmt(4)}%) contrast(${fmt(5)}%)`;
   }
 }
 

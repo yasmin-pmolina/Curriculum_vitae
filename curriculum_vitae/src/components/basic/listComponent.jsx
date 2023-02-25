@@ -18,7 +18,6 @@ class ListItem extends Component {
             nameIcon: props.nameIcon || this.defaultProps.nameIcon,
             nameClassIcon: props.nameClassIcon || this.defaultProps.nameClassIcon,
         }
-        console.log('CONSTRUCTOR: Cuando se instancia el componente ListItem');
     }
 
     render() {

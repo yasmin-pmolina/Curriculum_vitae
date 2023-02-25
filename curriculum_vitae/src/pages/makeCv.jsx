@@ -1,16 +1,12 @@
 import React, { useState } from 'react'
-import photo from '../models/applicant.jpg'
 import FileUploader from '../components/basic/fileinput'
-
+import FloatingPanel from '../components/floatingPanel'
 
 const MakeCV = ({ dataView }) => {
 
   /*
     const location = useLocation();
     const history = useHistory();
-
-    console.log('We are in Route:', location.pathname); // '/about | /faqs'
-
     const navigate = (path) => {
         history.push(path);
     }
@@ -26,29 +22,44 @@ const MakeCV = ({ dataView }) => {
     }*/
 
   const [selectedFile, setSelectedFile] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
 
   function handleFileUpload(file) {
     setSelectedFile(file);
   }
 
+  const togglePanel = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <div className="main-container rounded-3">
-      <div className="row bg-secundary gap-2 header-container">
-        <span className='col-4 align-self-center bg-ocre text-center m-1 p-4'>
+    <>
+      <div className="main-container rounded-3">
+        <div className="row bg-secundary gap-2 header-container">
+          <span className='col-4 align-self-center bg-ocre text-center m-1 p-4'>
             <FileUploader onFileSelect={handleFileUpload} typeFile=".jpg,.png" />
-          {selectedFile && (<span>Tamaño: {selectedFile.size} bytes</span>)}
-        </span>
+            {selectedFile && (<span>Tamaño: {selectedFile.size} bytes</span>)}
+          </span>
 
-        <span className='col-4 align-self-center'>
-        </span>
+          <span className='col-4 align-self-center'>
+            <div>
+              <h1>Panel flotante con formulario en ReactJS</h1>
+              <button onClick={togglePanel}>Abrir panel</button>
+              {isOpen && <FloatingPanel onClick={handleClose} />}
+            </div>
+          </span>
 
-        <span className='col-4 align-self-center'>
+          <span className='col-4 align-self-center'>
 
+          </span>
 
-        </span>
-
-      </div>
-    </div >
+        </div>
+      </div >
+    </>
   );
 }
 
