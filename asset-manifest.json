@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Curriculum_vitae/static/css/main.28f73b40.css",
-    "main.js": "/Curriculum_vitae/static/js/main.6246561d.js",
+    "main.css": "/Curriculum_vitae/static/css/main.29277dc5.css",
+    "main.js": "/Curriculum_vitae/static/js/main.3c5bfb2b.js",
     "static/media/applicant.jpg": "/Curriculum_vitae/static/media/applicant.1cc4406d76b3f9b182f3.jpg",
     "static/media/icon-jquery.svg": "/Curriculum_vitae/static/media/icon-jquery.18f5726a0668f7fa2784.svg",
     "static/media/spinning-cogs.svg": "/Curriculum_vitae/static/media/spinning-cogs.7a5524d13534ea7ebb07.svg",
@@ -28,18 +28,19 @@
     "static/media/icon-google.svg": "/Curriculum_vitae/static/media/icon-google.7d820a24ab24e5928115.svg",
     "static/media/icon-briefcase-fill.svg": "/Curriculum_vitae/static/media/icon-briefcase-fill.fd36772aa8e8c9ce436a.svg",
     "static/media/icon-award-fill.svg": "/Curriculum_vitae/static/media/icon-award-fill.1b17affb6d235112a425.svg",
+    "static/media/icon-print.svg": "/Curriculum_vitae/static/media/icon-print.558760647524df6f5b96.svg",
     "static/media/icon-html_5.svg": "/Curriculum_vitae/static/media/icon-html_5.ec1be1fd05823908a10f.svg",
     "static/media/icon-file-image.svg": "/Curriculum_vitae/static/media/icon-file-image.db71d51bd1fbdc3bd1e4.svg",
     "static/media/icon-date.svg": "/Curriculum_vitae/static/media/icon-date.05ee163f76195a31ee06.svg",
     "static/media/icon-plus-circle.svg": "/Curriculum_vitae/static/media/icon-plus-circle.8219460c20e9ce45d4b2.svg",
-    "static/media/logo.svg": "/Curriculum_vitae/static/media/logo.9b1cdd3aa4fcddfc9ed7.svg",
+    "static/media/logo.svg": "/Curriculum_vitae/static/media/logo.cf55fef1ecb1f38005cd.svg",
     "static/media/icon-phone.svg": "/Curriculum_vitae/static/media/icon-phone.4ba184dbf2e5a70f50fb.svg",
     "static/media/icon-place.svg": "/Curriculum_vitae/static/media/icon-place.473bb5c47610fd52d87a.svg",
-    "main.28f73b40.css.map": "/Curriculum_vitae/static/css/main.28f73b40.css.map",
-    "main.6246561d.js.map": "/Curriculum_vitae/static/js/main.6246561d.js.map"
+    "main.29277dc5.css.map": "/Curriculum_vitae/static/css/main.29277dc5.css.map",
+    "main.3c5bfb2b.js.map": "/Curriculum_vitae/static/js/main.3c5bfb2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.28f73b40.css",
-    "static/js/main.6246561d.js"
+    "static/css/main.29277dc5.css",
+    "static/js/main.3c5bfb2b.js"
   ]
 }
