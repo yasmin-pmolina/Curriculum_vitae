@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Curriculum_vitae/static/css/main.21855fee.css",
-    "main.js": "/Curriculum_vitae/static/js/main.8bab80f8.js",
+    "main.js": "/Curriculum_vitae/static/js/main.486a9fab.js",
     "static/media/applicant.jpg": "/Curriculum_vitae/static/media/applicant.1cc4406d76b3f9b182f3.jpg",
     "static/media/icon-jquery.svg": "/Curriculum_vitae/static/media/icon-jquery.18f5726a0668f7fa2784.svg",
     "static/media/spinning-cogs.svg": "/Curriculum_vitae/static/media/spinning-cogs.7a5524d13534ea7ebb07.svg",
@@ -18,9 +18,9 @@
     "static/media/icon-react.svg": "/Curriculum_vitae/static/media/icon-react.196a7593b8f2d63a0a53.svg",
     "static/media/icon-bootstrap.svg": "/Curriculum_vitae/static/media/icon-bootstrap.ed3c585319468b9e0cc8.svg",
     "static/media/icon-bi-translate.svg": "/Curriculum_vitae/static/media/icon-bi-translate.f1d7073524f95a39b709.svg",
-    "index.html": "/Curriculum_vitae/index.html",
     "static/media/icon-github.svg": "/Curriculum_vitae/static/media/icon-github.4e534cbda5e36df402f1.svg",
     "static/media/icon-linkedin.svg": "/Curriculum_vitae/static/media/icon-linkedin.fe8721c9a6b838941416.svg",
+    "index.html": "/Curriculum_vitae/index.html",
     "static/media/icon-javascript.svg": "/Curriculum_vitae/static/media/icon-javascript.cf17f2a8149aaa1d2f6b.svg",
     "static/media/icon-link.svg": "/Curriculum_vitae/static/media/icon-link.6cd5bb7ac9a1b13627b3.svg",
     "static/media/icon-git.svg": "/Curriculum_vitae/static/media/icon-git.9a20261559af306c1add.svg",
@@ -36,10 +36,10 @@
     "static/media/icon-phone.svg": "/Curriculum_vitae/static/media/icon-phone.4ba184dbf2e5a70f50fb.svg",
     "static/media/icon-place.svg": "/Curriculum_vitae/static/media/icon-place.473bb5c47610fd52d87a.svg",
     "main.21855fee.css.map": "/Curriculum_vitae/static/css/main.21855fee.css.map",
-    "main.8bab80f8.js.map": "/Curriculum_vitae/static/js/main.8bab80f8.js.map"
+    "main.486a9fab.js.map": "/Curriculum_vitae/static/js/main.486a9fab.js.map"
   },
   "entrypoints": [
     "static/css/main.21855fee.css",
-    "static/js/main.8bab80f8.js"
+    "static/js/main.486a9fab.js"
   ]
 }
