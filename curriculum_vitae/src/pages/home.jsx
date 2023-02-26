@@ -47,7 +47,7 @@ const Homepage = ({ dataView }) => {
                   <p className="card-text fst-italic text-center small-paragraph">{dataView?.applicant?.bio}</p>
                 </div>
               </div>
-              <div id="contact-info" className="col-4 col-sm-3 col-md-2 small-thin-paragraph bd-highlight">
+              <div id="contact-info" className="col-12 col-sm-3 col-md-2 small-thin-paragraph bd-highlight m-1">
                 <ContactInfo data={dataView?.contactInfo} />
               </div>
             </div>
