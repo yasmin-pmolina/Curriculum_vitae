@@ -48,10 +48,7 @@ class Navbar extends Component {
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                                     <li className="nav-item">
-                                        <a href="https://github.com/yasmin-pmolina" className="">Github</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="https://www.linkedin.com/in/yasmin-patricia-molina" className="">Linkedin</a>
+                                        <a href="https://www.linkedin.com/in/edymar-gonz%C3%A1lez-albarracin-08328733" className="">Linkedin</a>
                                     </li>
                                     {/*<li className="nav-item">
                                         <Link to="Curriculum_vitae/MakeCV" className="">Linkedin</Link>

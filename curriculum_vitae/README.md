@@ -77,7 +77,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `npm install --save-dev gh-pages`
 
-`homepage":"https://yasmin-pmolina.github.io/Curriculum_vitae/`
+`homepage":"https://YASMIN.github.io/Curriculum_vitae/`
 
 ## Available Scripts
 ### `predeploy":"npm run build` 

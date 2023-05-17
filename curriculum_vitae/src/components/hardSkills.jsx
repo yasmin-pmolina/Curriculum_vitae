@@ -30,12 +30,11 @@ class HardSkills extends Component {
         })
 
         return (
-            <div className="col-8 hardSkills">
-                <div className="row ps-3">
+            <div className="col-8 m-0 p-0 hardSkills align-items-start ">
+                <div className="row p-3 align-items-start ">
                 <p className="fw-bolder">HARD SKILLS</p>
                 </div>
-                <div className="row row-cols-9 skills">
-      
+                <div className="row row-cols-8 skills align-items-start ">
                     {htmlList}
                 </div>
             </div>

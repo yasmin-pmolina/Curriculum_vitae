@@ -21,8 +21,8 @@ class SoftSkills extends Component {
         })
 
         return (
-            <div className="col-3 softSkills">
-                <div className="row">
+            <div className="col-4 m-0 p-0 softSkills">
+                <div className="row p-3">
                     <p className="fw-bolder">SOFT SKILLS</p>
                     <ListItem data={htmlList} />
                 </div>

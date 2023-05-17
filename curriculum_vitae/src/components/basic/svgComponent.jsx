@@ -31,7 +31,28 @@ class SvgComponent extends Component {
             { name: "phone", icon: "icon-phone.svg" },
             { name: "mortarboard", icon: "icon-mortarboard-fill.svg" },
             { name: "place", icon: "icon-place.svg" },
-            { name: "link", icon: "icon-link.svg" }
+            { name: "link", icon: "icon-link.svg" },
+            { name: "IEC-60870-5-101", icon: "icon-IEC-60870-5-101.svg" },
+            { name: "IEC-60870-5-103", icon: "icon-IEC-60870-5-103.svg" },
+            { name: "IEC-60870-5-104", icon: "icon-IEC-60870-5-104.svg" },
+            { name: "IEDSCOUT", icon: "icon-iedscout.svg" },
+            { name: "MATRIKON", icon: "icon-MATRIKON.svg" },
+            { name: "TRIANGLE", icon: "icon-Triangle.svg" },
+            { name: "CONTROLES", icon: "icon-CONTROLES.svg" },
+            { name: "AXON GROUP", icon: "icon-AXON GROUP.svg" },
+            { name: "COOPER", icon: "icon-COOPER.svg" },
+            { name: "DLMS", icon: "icon-DLMS.svg" },
+            { name: "DNP", icon: "icon-DNP.svg" },
+            { name: "GE", icon: "icon-GE.svg" },
+            { name: "IGRID", icon: "icon-IIGRID.svg" },
+            { name: "MODBUS", icon: "icon-MODBUS.svg" },
+            { name: "OPC", icon: "icon-OPC.svg" },
+            { name: "SIEMENS", icon: "icon-SIEMENS.svg" },
+            { name: "SNMP", icon: "icon-SNMP.svg" },
+            { name: "61850-ICCP", icon: "icon-61850-ICCP.svg"},
+            { name: "ABB", icon: "icon-ABB.svg" },
+            { name: "PHP", icon: "icon-PHP.svg" },
+            
         ]
     };
 
@@ -121,3 +142,26 @@ SvgComponent.propTypes = {
 }
 
 export default SvgComponent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

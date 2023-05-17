@@ -17,16 +17,17 @@ class ListItem extends Component {
             contextIcon: props.contextIcon || this.defaultProps.contextIcon,
             nameIcon: props.nameIcon || this.defaultProps.nameIcon,
             nameClassIcon: props.nameClassIcon || this.defaultProps.nameClassIcon,
+            nameClassItem: props.nameClassItem || ""
         }
     }
 
     render() {
 
-        const {data, type} = this.props;
+        const {data, type, nameClassItem} = this.props;
         let htmlList = [];
 
         data.forEach((element,index)  => {
-            const html = <li key = {`item-${index}`}>{element}</li>
+            const html = <li className={nameClassItem} key = {`item-${index}`}>{element}</li>
             htmlList.push(html)
         });
 
