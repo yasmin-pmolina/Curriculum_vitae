@@ -22,7 +22,7 @@ class HardSkills extends Component {
         let htmlList = [];
 
         data.forEach((element, index) => {
-            const html = <span key={`languages-${index}`} className="col text-center">
+            const html = <span key={`languages-${index}`} className="col text-center py-2">
                 <SvgComponent contextIcon={contextIcon} name={element.name} isIconList='true' className="icon-skills"/>
                 <p>{element.name}</p>
             </span>
@@ -30,11 +30,11 @@ class HardSkills extends Component {
         })
 
         return (
-            <div className="col-8 m-0 p-0 hardSkills align-items-start ">
-                <div className="row p-3 align-items-start ">
+            <div className="col-8 m-0 p-0 hardSkills ">
+                <div className="row p-3">
                 <p className="fw-bolder">HARD SKILLS</p>
                 </div>
-                <div className="row row-cols-8 skills align-items-start ">
+                <div className="row row-cols-4 row-cols-lg-6 justify-content-start">
                     {htmlList}
                 </div>
             </div>

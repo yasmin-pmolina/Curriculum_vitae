@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import SvgComponent from './basic/svgComponent.jsx'
 import ListItem from './basic/listComponent.jsx';
 import TableComponent from './basic/TableComponent';
-import { colorIconDefault } from '../consts.jsx';
+import { colorIconDefault, currentJobs } from '../consts.jsx';
 
 class Experience extends Component {
 
@@ -25,31 +25,41 @@ class Experience extends Component {
     render() {
 
         const { contextIcon, data } = this.props;
-        let rows = [];
+        let rows = [], auxstring = '';
         const headers = ['COMPANY', 'POSITION', 'RESPONSIBILITIES'];
 
         data.forEach((element, indexRow) => {
 
             let period = element.period, dateIni, dateEnd;
 
-            if(element.data.length > 0){
+            if (element.data.length > 0) {
 
-                dateEnd = element.data[0].endDate.split("-");
-                dateIni = element.data[element.data.length-1].startDate.split("-");
+                if (element.data[0].endDate.length === 0 || currentJobs === element.data[0].endDate) {
+
+                    var currentTime = new Date();
+                    auxstring = currentTime.getMonth() + '-' + currentTime.getFullYear();
+
+                } else
+                    auxstring = element.data[0].endDate;
+
+
+                dateEnd = auxstring.split("-");
+                dateIni = element.data[element.data.length - 1].startDate.split("-");
 
                 dateEnd = new Date(parseInt(dateEnd[1]), parseInt(dateEnd[0]) + 1, 20).getTime();
                 dateIni = new Date(parseInt(dateIni[1]), parseInt(dateIni[0]) + 1, 1).getTime();
-              
+
                 let years = Math.trunc((dateEnd - dateIni) / (1000 * 60 * 60 * 24 * 364));
                 let meses = Math.round((dateEnd - dateIni) / (1000 * 60 * 60 * 24 * 30) - years * 12);
-              
+
                 if (meses === 12) { ++years; meses = 0 }
-              
+
                 years = years > 0 ? `${years} años ` : "";
                 meses = meses > 0 ? `${meses} meses` : "";
-              
+
                 period = years + meses;
             }
+
 
             const VerticalHeader = (
                 <span>
@@ -74,7 +84,7 @@ class Experience extends Component {
                 if (index === 0)
                     rows.push([VerticalHeader, listPositions, row.responsibilities.length > 1 ? <ListItem data={row.responsibilities} /> : <p className='small-paragraph'>{row.responsibilities[0]}</p>]);
                 else
-                    rows.push(['', listPositions, row.responsibilities.length > 1 ? <ListItem data={row.responsibilities}/> : <p className='small-paragraph'>{row.responsibilities[0]}</p>]);
+                    rows.push(['', listPositions, row.responsibilities.length > 1 ? <ListItem data={row.responsibilities} /> : <p className='small-paragraph'>{row.responsibilities[0]}</p>]);
             })
 
         })

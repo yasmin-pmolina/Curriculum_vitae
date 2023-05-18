@@ -76,7 +76,7 @@ const Homepage = ({ dataView }) => {
         <div className="experience-container">
           <Experience nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.experience} ></Experience>
         </div>
-        <div id="footer" className="footer-container align-items-start">
+        <div id="footer" className="footer-container">
           <div className="">
             <div className="row align-items-start">
               <HardSkills data={dataView?.hardSkills} />
