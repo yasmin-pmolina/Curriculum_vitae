@@ -46,8 +46,8 @@ class ContactInfo extends Component {
                             break;
                     }
 
-                    listHtml.push(<span className="row mb-1 p-0 gap-1 my-bg-light" key={`contactInfo-${index}`}>
-                        <a href={href} target={target} className="col ps-1 pe-1">
+                    listHtml.push(<span className="my-bg-light row my-1 p-0 gap-1" key={`contactInfo-${index}`}>
+                        <a href={href} target={target} className="my-bg-light col ps-1 pe-1">
                             <SvgComponent key={index} contextIcon={contextIcon} name={element.type} text={element.name}  colorIcon={colorIconDefault} colorHover={colorIconHoverDefault} className="icon-format small me-1" isIconList='true' />
                         </a>
                     </span>)

@@ -82,9 +82,9 @@ class Experience extends Component {
                 </span>
 
                 if (index === 0)
-                    rows.push([VerticalHeader, listPositions, row.responsibilities.length > 1 ? <ListItem data={row.responsibilities} /> : <p className='small-paragraph'>{row.responsibilities[0]}</p>]);
+                    rows.push([VerticalHeader, listPositions, row.responsibilities.length > 1 ? <ListItem data={row.responsibilities} classNameList ='experience-responsabilidad' /> : <p className='small-paragraph'>{row.responsibilities[0]}</p>]);
                 else
-                    rows.push(['', listPositions, row.responsibilities.length > 1 ? <ListItem data={row.responsibilities} /> : <p className='small-paragraph'>{row.responsibilities[0]}</p>]);
+                    rows.push(['', listPositions, row.responsibilities.length > 1 ? <ListItem data={row.responsibilities} classNameList ='experience-responsabilidad' /> : <p className='small-paragraph'>{row.responsibilities[0]}</p>]);
             })
 
         })

@@ -47,7 +47,7 @@ const Homepage = ({ dataView }) => {
                   <p className="fst-italic small-paragraph">{dataView?.applicant?.bio}</p>
                 </div>
               </div>
-              <div id="contact-info" className="col-12 col-sm-3 col-md-2 small-thin-paragraph bd-highlight mb-3">
+              <div id="contact-info" className="col-12 col-sm-3 col-md-2 small-thin-paragraph bd-highlight mb-1">
                 <ContactInfo data={dataView?.contactInfo} />
               </div>
             </div>
@@ -77,12 +77,10 @@ const Homepage = ({ dataView }) => {
           <Experience nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.experience} ></Experience>
         </div>
         <div id="footer" className="footer-container">
-          <div className="">
             <div className="row align-items-start">
               <HardSkills data={dataView?.hardSkills} />
               <SoftSkills data={dataView?.softSkills} />
             </div>
-          </div>
         </div>
       </div>
     </>

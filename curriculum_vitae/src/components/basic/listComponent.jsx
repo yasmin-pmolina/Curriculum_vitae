@@ -17,13 +17,14 @@ class ListItem extends Component {
             contextIcon: props.contextIcon || this.defaultProps.contextIcon,
             nameIcon: props.nameIcon || this.defaultProps.nameIcon,
             nameClassIcon: props.nameClassIcon || this.defaultProps.nameClassIcon,
-            nameClassItem: props.nameClassItem || ""
+            nameClassItem: props.nameClassItem || "",
+            classNameList: props.classNameList || ""
         }
     }
 
     render() {
 
-        const {data, type, nameClassItem} = this.props;
+        const {data, type, nameClassItem, classNameList} = this.props;
         let htmlList = [];
 
         data.forEach((element,index)  => {
@@ -32,7 +33,7 @@ class ListItem extends Component {
         });
 
         return (
-          (type === 'ol') ? <ol>{htmlList}</ol> : <ul>{htmlList}</ul>
+          (type === 'ol') ? <ol className={classNameList}>{htmlList}</ol> : <ul className={classNameList}>{htmlList}</ul>
         )
     }
 }

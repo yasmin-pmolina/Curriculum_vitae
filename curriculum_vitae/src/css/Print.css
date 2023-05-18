@@ -49,7 +49,7 @@
     border-radius: 10px;
     border: 0.1rem solid rgb(235, 230, 230);
     page-break-inside: avoid;
-    page-break-before: always;
+   
   }
 
   .titulo {
@@ -83,10 +83,10 @@
     padding: 0.1rem 0.1rem;
   }
 
-  ul,ol {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    padding-left: 1rem !important;
+  ol,li, ul.experience-responsabilidad {
+    margin: 0 !important;
+    padding: 0rem!important;
+    padding-left: 1.5px!important;
   }
 
   li {
@@ -124,9 +124,18 @@
     border-top: dashed 0.1rem rgb(235, 230, 230);
   }
 
+  a.my-bg-light{
+    color:#59A4A0;
+    text-decoration:  none !important;
+  }
+
+  .my-bg-light span:hover {
+    color: #DC9B40;
+  }
+
   .icon-skills {
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
   }
 
   svg {
@@ -158,6 +167,6 @@
 
   @page {
     size: letter;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 1rem;
   }
 }
