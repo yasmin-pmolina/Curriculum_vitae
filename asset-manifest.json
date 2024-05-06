@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Curriculum_vitae/static/css/main.eeb1660f.css",
-    "main.js": "/Curriculum_vitae/static/js/main.dbeffe39.js",
-    "static/media/applicant.jpg": "/Curriculum_vitae/static/media/applicant.1cc4406d76b3f9b182f3.jpg",
+    "main.js": "/Curriculum_vitae/static/js/main.97d37134.js",
     "static/media/EF-SET-Certificate-Yasmin-Molina.pdf": "/Curriculum_vitae/static/media/EF-SET-Certificate-Yasmin-Molina.42dcdb9af146049820c3.pdf",
     "static/media/diploma-conceptos-programacion.pdf": "/Curriculum_vitae/static/media/diploma-conceptos-programacion.44020d503c918668694f.pdf",
     "static/media/diplomas_Introduccion_a_Programacion.pdf": "/Curriculum_vitae/static/media/diplomas_Introduccion_a_Programacion.eb31da0965e483540856.pdf",
     "static/media/certificado-javacrip-Basico.pdf": "/Curriculum_vitae/static/media/certificado-javacrip-Basico.3f18d02613628705657e.pdf",
     "static/media/diplomas_Git.pdf": "/Curriculum_vitae/static/media/diplomas_Git.e83ea6f3382dffe13bcd.pdf",
     "static/media/EF-SET-Certificate-Yasmin-Molina.pdf.pdf": "/Curriculum_vitae/static/media/EF-SET-Certificate-Yasmin-Molina.pdf.09574c0e92c6801475d8.pdf",
+    "static/media/applicant.jpg": "/Curriculum_vitae/static/media/applicant.0c2c2169868cb4fef106.jpg",
     "static/media/certificado-IBM-CAD220EN-edX.pdf": "/Curriculum_vitae/static/media/certificado-IBM-CAD220EN-edX.8b82358400dbf0f28071.pdf",
     "static/media/certificado-edx.pdf": "/Curriculum_vitae/static/media/certificado-edx.8b82358400dbf0f28071.pdf",
     "static/media/icon-jquery.svg": "/Curriculum_vitae/static/media/icon-jquery.18f5726a0668f7fa2784.svg",
@@ -45,10 +45,10 @@
     "static/media/icon-phone.svg": "/Curriculum_vitae/static/media/icon-phone.4ba184dbf2e5a70f50fb.svg",
     "static/media/icon-place.svg": "/Curriculum_vitae/static/media/icon-place.473bb5c47610fd52d87a.svg",
     "main.eeb1660f.css.map": "/Curriculum_vitae/static/css/main.eeb1660f.css.map",
-    "main.dbeffe39.js.map": "/Curriculum_vitae/static/js/main.dbeffe39.js.map"
+    "main.97d37134.js.map": "/Curriculum_vitae/static/js/main.97d37134.js.map"
   },
   "entrypoints": [
     "static/css/main.eeb1660f.css",
-    "static/js/main.dbeffe39.js"
+    "static/js/main.97d37134.js"
   ]
 }
