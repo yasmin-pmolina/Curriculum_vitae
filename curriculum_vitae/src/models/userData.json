@@ -1,85 +1,102 @@
 {
-  "applicant":{
-   "name": "Yasmin Molina",
-   "bio": "Desarrollador con interés en la creación de software y firmware para brindar soluciones tecnológicas ajustadas al cliente, con capacidad de integración a equipos de forma rápida"
+  "applicant": {
+    "name": "Yasmin Molina",
+    "bio": "As a developer, I'm deeply interested in crafting customized software and firmware solutions that precisely meet my clients' technological requirements. My approach is process-oriented, where I not only focus on writing code but also pay meticulous attention to operational functions. I have a proven ability to seamlessly integrate into teams, ensuring quick collaboration and efficient project delivery."
   },
   "contactInfo": [
-    { "type":"phone"   ,  "name":"(+54) 9-11-24082020"      , "link": "(+54) 9-11-24082020"                               },
-    { "type":"mail"    ,  "name":"yasmin.pmolina@gmail.com" , "link": "yasmin.pmolina@gmail.com"                          },
-    { "type":"linkedin",  "name":"linkedin"                 , "link": "https://www.linkedin.com/in/yasmin-patricia-molina"},
-    { "type":"github"  ,  "name":"Yasmin-Pmolina"           , "link": "https://github.com/yasmin-pmolina"                 }
+    {
+      "type": "phone",
+      "name": "(+54) 9-11-24082020",
+      "link": "(+54) 9-11-24082020"
+    },
+    {
+      "type": "mail",
+      "name": "yasmin.pmolina@gmail.com",
+      "link": "yasmin.pmolina@gmail.com"
+    },
+    {
+      "type": "linkedin",
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/yasmin-patricia-molina"
+    },
+    {
+      "type": "github",
+      "name": "Yasmin-Pmolina",
+      "link": "https://github.com/yasmin-pmolina"
+    }
   ],
   "education": [
     {
       "entity": "Universidad Nacional Experimental del Táchira",
-      "degree": "Ingeniero Electrónico",
+      "degree": "Electronic Engineering",
       "date": "2006-2013"
     }
   ],
   "certifications": [
     {
+      "entity": "Edx, offered by IBM",
+      "label": "Back-end Application Development with Node.js and Express",
+      "date": "Sep 2023",
+      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf",
+      "fileName": "certificado-edx.pdf"
+    },
+    {
       "entity": "Open Bootcamp",
-      "name": "Certificado de finalización Git",
+      "label": "Git Certificate of Completion",
       "date": "Feb 2023",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/58d2c085-118f-4476-95aa-567aa2a0d25b"
+      "link": "https://github.com/yasmin-pmolina/cv_back_end/blob/master/models/users/yasmin-molina/certificates/diplomas_Git.pdf",
+      "fileName": "diplomas_Git.pdf"
     },
     {
       "entity": "Open Bootcamp",
-      "name": "Certificado de finalización Sql",
-      "date": "Feb 2023",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/2ba94b07-e837-4143-bc6b-1580ebd80f6d"
-    },
-    {
-      "entity": "Open Bootcamp",
-      "name": "Certificado de finalización javascript",
+      "label": "Javascript Certificate of Completion",
       "date": "Dic 2022",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81"
-    },
-    {
-      "entity": "Open Bootcamp",
-      "name": "Certificado de finalización HTML y CSS",
-      "date": "Dic 2022",
-      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf"
+      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81",
+      "fileName": "certificado-javacrip-Basico.pdf"
     }
   ],
   "languages": [
     {
       "name": "Español",
-      "level": "Nativo"
+      "level": "Nativo",
+      "link": ""
     },
     {
-      "name": "Ingles",
-      "level": "Intermedio Bajo"
+      "name": "Ingles Reading",
+      "level": "C1 Advanced - Reading & Listening",
+      "link": "https://cert.efset.org/mNJd2q",
+      "fileName": "EF-SET-Certificate-Yasmin-Molina.pdf"
     }
   ],
   "experience": [
     {
       "entity": "FK TECH SRL",
       "place": "Buenos Aires, Argentina",
-      "period": "",
+      "period": 36,
       "data": [
         {
-          "positions": "Líder Técnico",
+          "positions": "Technical Leader",
           "responsibilities": [
-            "Análisis de requerimientos",
-            "Gestionar asignación de actividades.",
-            "Aprobar merge request.",
-            "Crear documentación técnica.",
-            "Asesorar al equipo a nivel técnico y lógica de negocio.",
-            "Soporte Nivel 3."
+            "Requirement analysis",
+            "Task allocation management.",
+            "Approval of merge requests.",
+            "Technical documentation creation.",
+            "Providing technical and business logic guidance to the team.",
+            "Level 3 support."
           ],
           "startDate": "08-2020",
           "endDate": "05-2022"
         },
         {
-          "positions": "Analista Programador",
+          "positions": "Programmer Analyst",
           "responsibilities": [
-            "Análisis de requerimientos.",
-            "Desarrollo de Nuevas funcionalidades.",
-            "Mantenimiento y depuración de código.",
-            "Crear documentación técnica.",
-            "Proporcionar Workarounds en producción.",
-            "Soporte Nivel 3."
+            "Requirement analysis.",
+            "Development of new functionalities.",
+            "Code maintenance and debugging.",
+            "Technical documentation creation.",
+            "Providing production workarounds.",
+            "Level 3 support.",
+            "Monitoring and detection of faults for correction."
           ],
           "startDate": "06-2019",
           "endDate": "08-2020"
@@ -89,15 +106,16 @@
     {
       "entity": "Freelance",
       "place": "Buenos Aires, Argentina",
-      "period": " ",
+      "period": 36,
       "data": [
         {
-          "positions": "Desarrollador",
+          "positions": "Software Developer",
           "responsibilities": [
-            "Verificar Comportamiento con respecto a las especificaciones.",
-            "Pruebas y control de Calidad.",
-            "Desarrollo de la aplicación (Programación en C#).",
-            "Crear documentación técnica."
+            "Facilitating client meetings to gather requirements and specifications.",
+            "Leading the creation of user-friendly applications using C# programming language.",
+            "Verifying behaviour following specifications.",
+            "Quality testing and control.",
+            "Technical documentation creation."
           ],
           "startDate": "03-2019",
           "endDate": "05-2019"
@@ -105,20 +123,36 @@
       ]
     },
     {
-      "entity": "The Factory FKA",
+      "entity": "Grupo Amagi",
       "place": "Caracas, Venezuela",
-      "period": " ",
+      "period": 3,
       "data": [
         {
           "positions": "Ingeniero de Proyectos",
           "responsibilities": [
-            "Levantamiento de información (requerimientos de ley).",
-            "Desarrollo de Protocolo de Pruebas de equipos (firmware y software).",
-            "Mantenimiento y corrección de código (firmware).",
-            "Desarrollo de aplicaciones en Escritorio (software).",
-            "Pruebas de Calidad de los productos.",
-            "Soporte interno.",
-            "Crear documentación técnica."
+            "Development of functionalities in the application layer of the firmware for domestic electric ovens.",
+            "Unit tests"
+          ],
+          "startDate": "05-2018",
+          "endDate": "08-2018"
+        }
+      ]
+    },
+    {
+      "entity": "The Factory FKA",
+      "place": "Caracas, Venezuela",
+      "period": 39,
+      "data": [
+        {
+          "positions": "Project Engineer",
+          "responsibilities": [
+            "Information gathering for legal compliance and regulatory requirements.",
+            "Development of equipment testing protocols.",
+            "Creation of communication protocols in firmware.",
+            "Maintenance and debugging of firmware code.",
+            "Development of desktop applications.",
+            "Performing quality assurance tests on products.",
+            "Providing internal support"
           ],
           "startDate": "03-2015",
           "endDate": "05-2018"
@@ -128,15 +162,15 @@
     {
       "entity": "Freelance",
       "place": "Caracas, Venezuela",
-      "period": " ",
+      "period": 8,
       "data": [
         {
-          "positions": "Ingeniero de Proyectos",
+          "positions": "Project Engineer",
           "responsibilities": [
-            "Levantamiento de información para creación de software de punto de venta.",
-            "Desarrollo en el entorno de desarrollo integrado Qt Creator.",
-            "Diseño de base de datos MySql.",
-            "Pruebas y depuración del funcionamiento del producto."
+            "Conducted comprehensive information gathering for the development of point-of-sale software.",
+            "Proficient in development using Qt Creator IDE with C/C++ language.",
+            "Designed and implemented MySQL databases.",
+            "Ensuring product functionality through thorough testing and debugging processes."
           ],
           "startDate": "05-2018",
           "endDate": "12-2018"
@@ -144,29 +178,29 @@
       ]
     }
   ],
-  "hardSkills":[
-    {"name":"Git",        "level":""},
-    {"name":"JavaScript", "level":"" },
-    {"name":"HTML5",      "level":"" },
-    {"name":"SASS/SCSS",  "level":"" },
-    {"name":"React.js",   "level":"" },
-    {"name":"Bootstrap",  "level":"" },
-    {"name":"JQuery",     "level":"" },
-    {"name":"MySql",      "level":"" },
-    {"name":"PostgreSQL", "level":"" },
-    {"name":"C",          "level":"" },
-    {"name":"C++",        "level":"" },
-    {"name":"C#",         "level":"" },
-    {"name":"Node.js",    "level":"" },
-    {"name":"Qt",         "level":"" },
-    {"name":"Jira",       "level":"" }
+  "hardSkills": [
+    { "name": "Git", "level": "" },
+    { "name": "JavaScript", "level": "" },
+    { "name": "HTML5", "level": "" },
+    { "name": "SASS/SCSS", "level": "" },
+    { "name": "React.js", "level": "" },
+    { "name": "Bootstrap", "level": "" },
+    { "name": "JQuery", "level": "" },
+    { "name": "MySql", "level": "" },
+    { "name": "PostgreSQL", "level": "" },
+    { "name": "C", "level": "" },
+    { "name": "C++", "level": "" },
+    { "name": "C#", "level": "" },
+    { "name": "Node.js", "level": "" },
+    { "name": "Qt", "level": "" },
+    { "name": "Jira", "level": "" }
   ],
-  
-  "softSkills":[
-    {"name":"Pensamiento crítico" },
-    {"name":"Trabajo en equipo" },
-    {"name":"Capacidad de aprendizaje" },
-    {"name":"Capacidad de resolución de problemas" },
-    {"name":"Proactiva" }
-  ] 
+
+  "softSkills": [
+    { "name": "Critical thinking" },
+    { "name": "Teamwork" },
+    { "name": "Learning ability" },
+    { "name": "Problem-solving skills" },
+    { "name": "productivity" }
+  ]
 }

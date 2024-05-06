@@ -9,6 +9,7 @@ import SoftSkills from '../components/softSkills';
 
 import photo from '../models/applicant.jpg'
 
+
 const Homepage = ({ dataView }) => {
 
   /*

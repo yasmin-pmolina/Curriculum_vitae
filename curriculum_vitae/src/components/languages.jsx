@@ -23,9 +23,17 @@ class Languages extends Component {
 
         const data = this.props.data;
         let htmlList = [];
+        let contexpfd =  require.context("../models/certificates", true, /.pdf$/)
+        let certfPdf = "";
 
         data.forEach((element, index) => {
-            const html = <span key={`languages-${index}`}><b>{element.name}: </b>{element.level}</span>
+
+            if(element.hasOwnProperty('fileName') && element.fileName !== null && element.fileName !== "")
+                certfPdf = contexpfd(`./${element.fileName}`);
+
+            const html = <span key={`languages-${index}`}><b>{element.name + ": "}
+            </b>{(element?.link && element.link !== "") ? <a href={ certfPdf !== "" ? certfPdf : element.link} target="_blank" className="fst-italic" rel="noreferrer">{element.level}</a> : element.level}</span>
+
             htmlList.push(html)
         })
 

@@ -26,7 +26,7 @@ class Experience extends Component {
 
         const { contextIcon, data } = this.props;
         let rows = [];
-        const headers = ['Entidad', 'Cargo', 'Responsabilidad'];
+        const headers = ['Company', 'Title ', 'Experience Highlights'];
 
         data.forEach((element, indexRow) => {
 
@@ -82,7 +82,7 @@ class Experience extends Component {
         return (
             <div>
                 <span className="ms-2 fw-bolder"><SvgComponent name="icon-briefcase-fill.svg" colorIcon={colorIconDefault} className="clase-0 icon-format" ></SvgComponent></span>
-                <span className="ms-2 fw-bolder">EXPERIENCIA</span>
+                <span className="ms-2 fw-bolder">Experience</span>
                 <TableComponent headers={headers} rows={rows} verticalHeader={true} horizontalHeaderRowSpan={2} classNameTable="table table-striped table-hover mb-0" />
             </div>
         )
