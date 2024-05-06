@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Curriculum_vitae/static/css/main.eeb1660f.css",
-    "main.js": "/Curriculum_vitae/static/js/main.97d37134.js",
+    "main.js": "/Curriculum_vitae/static/js/main.3b3ff086.js",
     "static/media/EF-SET-Certificate-Yasmin-Molina.pdf": "/Curriculum_vitae/static/media/EF-SET-Certificate-Yasmin-Molina.42dcdb9af146049820c3.pdf",
     "static/media/diploma-conceptos-programacion.pdf": "/Curriculum_vitae/static/media/diploma-conceptos-programacion.44020d503c918668694f.pdf",
     "static/media/diplomas_Introduccion_a_Programacion.pdf": "/Curriculum_vitae/static/media/diplomas_Introduccion_a_Programacion.eb31da0965e483540856.pdf",
@@ -45,10 +45,10 @@
     "static/media/icon-phone.svg": "/Curriculum_vitae/static/media/icon-phone.4ba184dbf2e5a70f50fb.svg",
     "static/media/icon-place.svg": "/Curriculum_vitae/static/media/icon-place.473bb5c47610fd52d87a.svg",
     "main.eeb1660f.css.map": "/Curriculum_vitae/static/css/main.eeb1660f.css.map",
-    "main.97d37134.js.map": "/Curriculum_vitae/static/js/main.97d37134.js.map"
+    "main.3b3ff086.js.map": "/Curriculum_vitae/static/js/main.3b3ff086.js.map"
   },
   "entrypoints": [
     "static/css/main.eeb1660f.css",
-    "static/js/main.97d37134.js"
+    "static/js/main.3b3ff086.js"
   ]
 }
