@@ -4,15 +4,17 @@
   "ExperienceHighlights": "Experience Highlights",
   "Experience": "Experience",
   "timePeriod": {
-    "Month": "Month",
-    "Year": "Year",
-    "Months": "Months",
-    "Years": "Years"
+    "Month": "month",
+    "Year": "year",
+    "Months": "months",
+    "Years": "years"
 
   },
   "CoursesWorkshops" :"Courses & Workshops",
   "Education": "Education",
   "languages": "languages",
+  "English": "English",
+  "Spanish": "Spanish",
   "SoftSkills": "Soft Skills",
   "HardSkills": "hard Skills"
 }

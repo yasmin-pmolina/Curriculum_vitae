@@ -16,13 +16,13 @@ class SoftSkills extends Component {
         let htmlList = [];
 
         data.forEach((element, index) => {
-            const html = <span key={`languages-${index}`}>{element.name}</span>
+            const html = <span key={`skill-${index}`}>{element.name}</span>
             htmlList.push(html)
         })
 
         return (
-            <div className="col-3 softSkills">
-                <div className="row">
+            <div className="mb-2 pb-2 softSkills">
+                <div className="col ps-3">
                     <p className="fw-bolder">SOFT SKILLS</p>
                     <ListItem data={htmlList} />
                 </div>

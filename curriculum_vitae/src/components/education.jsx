@@ -17,13 +17,13 @@ class Education extends Component {
             contextIcon: props.contextIcon || this.defaultProps.contextIcon,
             nameIcon: props.nameIcon || this.defaultProps.nameIcon,
             nameClassIcon: props.nameClassIcon || this.defaultProps.nameClassIcon,
+            labels: props.labels
         }
     }
 
     render() {
 
-        const { contextIcon } = this.props.contextIcon;
-        const data = this.props.data;
+        const { contextIcon, data, labels } = this.props;
         let htmlList = [];
 
         data.forEach((element, index) => {
@@ -40,7 +40,7 @@ class Education extends Component {
             <span className="education ms-1">
                 <div className="my-1">
                     <SvgComponent name="icon-mortarboard-fill.svg" colorIcon={colorIconDefault} className="me-1 icon-format" ></SvgComponent>
-                    <span className="m-0 p-0 fw-bolder">EDUCACIÓN</span>
+                    <span className="m-0 p-0 fw-bolder">{labels.Education ? labels.Education.toUpperCase():"EDUCATION"}</span>
                 </div>
                 <div className="mb-2">{htmlList}</div>
             </span>

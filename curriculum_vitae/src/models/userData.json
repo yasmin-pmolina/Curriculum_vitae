@@ -1,7 +1,7 @@
 {
   "applicant": {
     "name": "Yasmin Molina",
-    "bio": "As a developer, I'm deeply interested in crafting customized software and firmware solutions that precisely meet my clients' technological requirements. My approach is process-oriented, where I not only focus on writing code but also pay meticulous attention to operational functions. I have a proven ability to seamlessly integrate into teams, ensuring quick collaboration and efficient project delivery."
+    "bio": " As a developer, I'm deeply interested in crafting custom-made software and firmware solutions that meet my clients' technological requirements. My approach is focuses not only on writing code but also on providing the best alignment to the business requirements. I have a proven ability to seamlessly integrate into teams, ensuring quick collaboration and efficient project delivery"
   },
   "contactInfo": [
     {
@@ -57,12 +57,12 @@
   ],
   "languages": [
     {
-      "name": "Español",
-      "level": "Nativo",
+      "name": "Spanish",
+      "level": "Native",
       "link": ""
     },
     {
-      "name": "Ingles Reading",
+      "name": "English",
       "level": "C1 Advanced - Reading & Listening",
       "link": "https://cert.efset.org/mNJd2q",
       "fileName": "EF-SET-Certificate-Yasmin-Molina.pdf"

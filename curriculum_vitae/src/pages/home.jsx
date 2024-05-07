@@ -10,7 +10,7 @@ import SoftSkills from '../components/softSkills';
 import photo from '../models/applicant.jpg'
 
 
-const Homepage = ({ dataView }) => {
+const Homepage = ({ dataView, labels }) => {
 
   /*
     const location = useLocation();
@@ -57,29 +57,27 @@ const Homepage = ({ dataView }) => {
         <div className="personal-data">
           <div className="col mb-0 my-bg-dark">{/*  */}
             <span className="row m-0 p-0">
-              <Education nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.education} ></Education>
+              <Education nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.education} labels={labels} ></Education>
             </span>
           </div>
           <div className="col my-bg-dark mb-1">
             <span className="row certifications m-0 p-0">
-              <Certifications nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.certifications} ></Certifications>
+              <Certifications nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.certifications} labels={labels}></Certifications>
             </span>
           </div>
           <div className="col my-bg-dark mb-1">
             <span className="row languages m-0 p-0">
-              <Languages nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.languages} ></Languages>
+              <Languages nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.languages} labels={labels}></Languages>
             </span>
           </div>
         </div>
         <div className="experience-container">
-          <Experience nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.experience} ></Experience>
+          <Experience nameIcon="icon-date.svg" nameClassIcon="icon-format" data={dataView?.experience} labels={labels}></Experience>
         </div>
         <div className="footer-container">
-          <div className="container m-1 p-1">
-            <div className="row gap-3">
+          <div className="mx-3 px-3">
               <HardSkills data={dataView?.hardSkills} />
               <SoftSkills data={dataView?.softSkills} />
-            </div>
           </div>
         </div>
       </div>

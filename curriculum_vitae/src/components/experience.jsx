@@ -24,9 +24,9 @@ class Experience extends Component {
 
     render() {
 
-        const { contextIcon, data } = this.props;
+        const { contextIcon, data, labels } = this.props;
         let rows = [];
-        const headers = ['Company', 'Title ', 'Experience Highlights'];
+        const headers = [labels.Company.toUpperCase(), labels.Title.toUpperCase(), labels.ExperienceHighlights.toUpperCase()];
 
         data.forEach((element, indexRow) => {
 
@@ -45,8 +45,8 @@ class Experience extends Component {
               
                 if (meses === 12) { ++years; meses = 0 }
               
-                years = years > 0 ? `${years} años ` : "";
-                meses = meses > 0 ? `${meses} meses` : "";
+                years = years > 0 ? `${years} ${labels.timePeriod.Years ? labels.timePeriod.Years : "Years"} ` : "";
+                meses = meses > 0 ? `${meses} ${labels.timePeriod.Months ? labels.timePeriod.Months : "Months" }` : "";
               
                 period = years + meses;
             }
@@ -82,7 +82,7 @@ class Experience extends Component {
         return (
             <div>
                 <span className="ms-2 fw-bolder"><SvgComponent name="icon-briefcase-fill.svg" colorIcon={colorIconDefault} className="clase-0 icon-format" ></SvgComponent></span>
-                <span className="ms-2 fw-bolder">Experience</span>
+                <span className="ms-2 fw-bolder">{labels.Experience ? labels.Experience.toUpperCase() : "Experience"}</span>
                 <TableComponent headers={headers} rows={rows} verticalHeader={true} horizontalHeaderRowSpan={2} classNameTable="table table-striped table-hover mb-0" />
             </div>
         )

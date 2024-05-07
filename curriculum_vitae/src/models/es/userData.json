@@ -1,7 +1,7 @@
 {
   "applicant":{
    "name": "Yasmin Molina",
-   "bio": "Desarrollador con interés en la creación de software y firmware para brindar soluciones tecnológicas ajustadas al cliente, con capacidad de integración a equipos de forma rápida"
+   "bio": "Como desarrollador, estoy interesada en crear software y firmware que reúnen las cualidades para satisfacer las  necesidades tecnológicas de los clientes. Con capacidad de integración y generar un ambiente colaborativo en pro de resultados. "
   },
   "contactInfo": [
     { "type":"phone"   ,  "name":"(+54) 9-11-24082020"      , "link": "(+54) 9-11-24082020"                               },
@@ -18,28 +18,25 @@
   ],
   "certifications": [
     {
+      "entity": "Edx, offered by IBM",
+      "label": "Back-end Application Development with Node.js and Express",
+      "date": "Sep 2023",
+      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf",
+      "fileName": "certificado-edx.pdf"
+    },
+    {
       "entity": "Open Bootcamp",
-      "name": "Certificado de finalización Git",
+      "label": "Certificado de finalización Git",
       "date": "Feb 2023",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/58d2c085-118f-4476-95aa-567aa2a0d25b"
+      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/58d2c085-118f-4476-95aa-567aa2a0d25b",
+      "fileName": "diplomas_Git.pdf"
     },
     {
       "entity": "Open Bootcamp",
-      "name": "Certificado de finalización Sql",
-      "date": "Feb 2023",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/2ba94b07-e837-4143-bc6b-1580ebd80f6d"
-    },
-    {
-      "entity": "Open Bootcamp",
-      "name": "Certificado de finalización javascript",
+      "label": "Certificado de finalización javascript",
       "date": "Dic 2022",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81"
-    },
-    {
-      "entity": "Open Bootcamp",
-      "name": "Certificado de finalización HTML y CSS",
-      "date": "Dic 2022",
-      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf"
+      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81",
+      "fileName": "certificado-javacrip-Basico.pdf"
     }
   ],
   "languages": [
@@ -49,7 +46,9 @@
     },
     {
       "name": "Ingles",
-      "level": "Intermedio"
+      "level": "C1 Advanced - Reading & Listening",
+      "link": "https://cert.efset.org/mNJd2q",
+      "fileName": "EF-SET-Certificate-Yasmin-Molina.pdf"
     }
   ],
   "experience": [
@@ -79,7 +78,8 @@
             "Mantenimiento y depuración de código.",
             "Crear documentación técnica.",
             "Proporcionar Workarounds en producción.",
-            "Soporte Nivel 3."
+            "Soporte Nivel 3.",
+            "Supervisión y detección de fallos para su corrección."
           ],
           "startDate": "06-2019",
           "endDate": "08-2020"
@@ -94,6 +94,7 @@
         {
           "positions": "Desarrollador",
           "responsibilities": [
+            "Facilitar reuniones con los clientes para recopilar requisitos y especificaciones.",
             "Verificar comportamiento con respecto a las especificaciones.",
             "Pruebas y control de calidad.",
             "Desarrollo de la aplicación (Programación en C#).",

@@ -70,15 +70,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-
-
+The project was built assuming it is hosted at /Curriculum_vitae/.
+You can control this with the homepage field in your package.json.
+https://create-react-app.dev/docs/deployment/
 
 ### Deployment on Github
 
 ### `npm install --save-dev gh-pages`
 
-`homepage":"https://yasmin-pmolina.github.io/Curriculum_vitae/`
-
+`homepage":"`
+https://yasmin-pmolina.github.io/Curriculum_vitae/
 ## Available Scripts
 ### `predeploy":"npm run build` 
 ### `deploy": "gh-pages -d build` 

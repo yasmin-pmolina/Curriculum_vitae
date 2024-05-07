@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import FileUploader from '../components/basic/fileinput'
 import FloatingPanel from '../components/floatingPanel'
 
-const MakeCV = ({ dataView }) => {
+const MakeCV = (props) => {
 
   /*
     const location = useLocation();
@@ -47,8 +47,7 @@ const MakeCV = ({ dataView }) => {
 
           <span className='col-4 align-self-center'>
             <div>
-              <h1>Panel flotante con formulario en ReactJS</h1>
-              <button onClick={togglePanel}>Abrir panel</button>
+              <button onClick={togglePanel}></button>
               {isOpen && <FloatingPanel onClick={handleClose} />}
             </div>
           </span>
@@ -58,7 +57,7 @@ const MakeCV = ({ dataView }) => {
           </span>
 
         </div>
-      </div >
+      </div>
     </>
   );
 }

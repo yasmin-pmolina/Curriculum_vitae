@@ -5,7 +5,7 @@ function Layout(props) {
   return (
     <span>
       <div className="navbar-container">
-        <Navbar /> </div>
+         <Navbar {...props.children.props} /></div>
       {props.children}
     </span>
   );

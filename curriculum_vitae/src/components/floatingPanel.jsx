@@ -2,7 +2,7 @@ import { event } from 'jquery';
 import React, { useState } from 'react';
 import './floatingPanel.css';
 
-export default function FloatingPanel() {
+export default function FloatingPanel(props) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 

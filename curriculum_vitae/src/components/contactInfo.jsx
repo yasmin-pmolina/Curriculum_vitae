@@ -3,6 +3,7 @@ import SvgComponent from './basic/svgComponent'
 import { colorIconDefault, colorIconHoverDefault } from '../consts';
 
 
+
 class ContactInfo extends Component {
 
     static defaultProps = {

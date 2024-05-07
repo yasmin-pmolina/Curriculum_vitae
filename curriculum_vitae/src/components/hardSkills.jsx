@@ -30,12 +30,11 @@ class HardSkills extends Component {
         })
 
         return (
-            <div className="col-8 hardSkills">
-                <div className="row ps-3">
+            <div className="col-12 mb-2 pb-2 hardSkills">
+                <div className="row my-3">
                 <p className="fw-bolder">HARD SKILLS</p>
                 </div>
-                <div className="row row-cols-9 skills">
-      
+                <div className="row row-cols-8 skills">
                     {htmlList}
                 </div>
             </div>

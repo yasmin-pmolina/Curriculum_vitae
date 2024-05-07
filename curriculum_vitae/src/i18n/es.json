@@ -1,0 +1,20 @@
+{
+  "Company": "Entidad",
+  "Title": "Cargo",
+  "ExperienceHighlights": "Experiencias destacadas",
+  "Experience": "Experiencia",
+  "timePeriod": {
+    "Month": "mes",
+    "Year": "año",
+    "Months": "meses",
+    "Years": "años"
+
+  },
+  "CoursesWorkshops" :"Cursos & Talleres",
+  "Education": "Educación",
+  "languages": "Idiomas",
+  "English": "Ingles",
+  "Spanish": "Español",
+  "SoftSkills": "Soft Skills",
+  "HardSkills": "hard Skills"
+}

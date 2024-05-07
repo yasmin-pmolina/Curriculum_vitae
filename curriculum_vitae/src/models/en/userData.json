@@ -1,7 +1,7 @@
 {
   "applicant": {
     "name": "Yasmin Molina",
-    "bio": "Developer with an interest in creating software and firmware to provide tailored technological solutions to clients, with the ability to quickly integrate into teams"
+    "bio": " As a developer, I'm deeply interested in crafting custom-made software and firmware solutions that meet my clients' technological requirements. My approach is focuses not only on writing code but also on providing the best alignment to the business requirements. I have a proven ability to seamlessly integrate into teams, ensuring quick collaboration and efficient project delivery"
   },
   "contactInfo": [
     {
@@ -21,58 +21,51 @@
     },
     {
       "type": "github",
-      "name": "Yasmin-pmolina",
+      "name": "Yasmin-Pmolina",
       "link": "https://github.com/yasmin-pmolina"
     }
   ],
   "education": [
     {
-      "entity": "National Experimental University of Tachira",
+      "entity": "Universidad Nacional Experimental del Táchira",
       "degree": "Electronic Engineering",
       "date": "2006-2013"
     }
   ],
   "certifications": [
     {
-      "entity": "edX",
-      "name": "Back-end Application Development with Node.js and Express",
-      "date": "Setp 2023",
-      "link": "https://courses.edx.org/certificates/6847e2b9b6654cb38cd287a5547c7d3f"
+      "entity": "Edx, offered by IBM",
+      "label": "Back-end Application Development with Node.js and Express",
+      "date": "Sep 2023",
+      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf",
+      "fileName": "certificado-edx.pdf"
     },
     {
       "entity": "Open Bootcamp",
-      "name": "Git Certificate of Completion",
+      "label": "Git Certificate of Completion",
       "date": "Feb 2023",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/58d2c085-118f-4476-95aa-567aa2a0d25b"
+      "link": "https://github.com/yasmin-pmolina/cv_back_end/blob/master/models/users/yasmin-molina/certificates/diplomas_Git.pdf",
+      "fileName": "diplomas_Git.pdf"
     },
     {
       "entity": "Open Bootcamp",
-      "name": "Sql Certificate of Completion",
-      "date": "Feb 2023",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/2ba94b07-e837-4143-bc6b-1580ebd80f6d"
-    },
-    {
-      "entity": "Open Bootcamp",
-      "name": "javascript Certificate of Completion",
+      "label": "Javascript Certificate of Completion",
       "date": "Dic 2022",
-      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81"
-    },
-    {
-      "entity": "Open Bootcamp",
-      "name": "HTML and CSS Certificate of Completion",
-      "date": "Dic 2022",
-      "link": "https://storage.googleapis.com/openvitae-prod/diplomas%2F8b4e8c07-95fa-4b61-aa32-1897b82bfbc7.pdf"
+      "link": "https://community.open-bootcamp.com/user/yasminpmolina/certificaciones/b372bfdf-299f-4364-a7dc-cf20b8ccfd81",
+      "fileName": "certificado-javacrip-Basico.pdf"
     }
   ],
   "languages": [
     {
       "name": "Spanish",
-      "level": "Native"
+      "level": "Native",
+      "link": ""
     },
     {
-      "name": "Ingles Reading",
+      "name": "English",
       "level": "C1 Advanced - Reading & Listening",
-      "link": "https://cert.efset.org/mNJd2q"
+      "link": "https://cert.efset.org/mNJd2q",
+      "fileName": "EF-SET-Certificate-Yasmin-Molina.pdf"
     }
   ],
   "experience": [
@@ -82,13 +75,13 @@
       "period": 36,
       "data": [
         {
-          "positions": "Technical leader",
+          "positions": "Technical Leader",
           "responsibilities": [
-            "Requirements analysis.",
-            "Manage task assignment",
-            "Approve merge requests.",
-            "Create technical documentation.",
-            "Provide technical and business logic guidance to the team.",
+            "Requirement analysis",
+            "Task allocation management.",
+            "Approval of merge requests.",
+            "Technical documentation creation.",
+            "Providing technical and business logic guidance to the team.",
             "Level 3 support."
           ],
           "startDate": "08-2020",
@@ -100,9 +93,10 @@
             "Requirement analysis.",
             "Development of new functionalities.",
             "Code maintenance and debugging.",
-            "Create technical documentation.",
-            "Provide workarounds in production.",
-            "Level 3 support."
+            "Technical documentation creation.",
+            "Providing production workarounds.",
+            "Level 3 support.",
+            "Monitoring and detection of faults for correction."
           ],
           "startDate": "06-2019",
           "endDate": "08-2020"
@@ -115,12 +109,13 @@
       "period": 36,
       "data": [
         {
-          "positions": "Developer",
+          "positions": "Software Developer",
           "responsibilities": [
-            "Verify compliance with specifications.",
-            "Testing and quality control.",
-            "Application development (C# programming).",
-            "Create technical documentation."
+            "Facilitating client meetings to gather requirements and specifications.",
+            "Leading the creation of user-friendly applications using C# programming language.",
+            "Verifying behaviour following specifications.",
+            "Quality testing and control.",
+            "Technical documentation creation."
           ],
           "startDate": "03-2019",
           "endDate": "05-2019"
@@ -135,13 +130,13 @@
         {
           "positions": "Project Engineer",
           "responsibilities": [
-            "Information gathering (legal requirements).",
-            "Development of equipment testing protocols (firmware and software).",
-            "Code maintenance and correction (firmware).",
-            "Desktop application development (software).",
-            "Product quality testing.",
-            "Internal support.",
-            "Create technical documentation."
+            "Information gathering for legal compliance and regulatory requirements.",
+            "Development of equipment testing protocols.",
+            "Creation of communication protocols in firmware.",
+            "Maintenance and debugging of firmware code.",
+            "Development of desktop applications.",
+            "Performing quality assurance tests on products.",
+            "Providing internal support"
           ],
           "startDate": "03-2015",
           "endDate": "05-2018"
@@ -156,10 +151,10 @@
         {
           "positions": "Project Engineer",
           "responsibilities": [
-            "Information gathering for point of sale software creation.",
-            "Development in the Qt Creator integrated development environment.",
-            "Design of MySql database.",
-            "Testing and debugging of product functionality."
+            "Conducted comprehensive information gathering for the development of point-of-sale software.",
+            "Proficient in development using Qt Creator IDE with C/C++ language.",
+            "Designed and implemented MySQL databases.",
+            "Ensuring product functionality through thorough testing and debugging processes."
           ],
           "startDate": "05-2018",
           "endDate": "12-2018"
@@ -168,82 +163,28 @@
     }
   ],
   "hardSkills": [
-    {
-      "name": "Git",
-      "level": ""
-    },
-    {
-      "name": "JavaScript",
-      "level": ""
-    },
-    {
-      "name": "HTML5",
-      "level": ""
-    },
-    {
-      "name": "SASS/SCSS",
-      "level": ""
-    },
-    {
-      "name": "React.js",
-      "level": ""
-    },
-    {
-      "name": "Bootstrap",
-      "level": ""
-    },
-    {
-      "name": "JQuery",
-      "level": ""
-    },
-    {
-      "name": "MySql",
-      "level": ""
-    },
-    {
-      "name": "PostgreSQL",
-      "level": ""
-    },
-    {
-      "name": "C",
-      "level": ""
-    },
-    {
-      "name": "C++",
-      "level": ""
-    },
-    {
-      "name": "C#",
-      "level": ""
-    },
-    {
-      "name": "Node.js",
-      "level": ""
-    },
-    {
-      "name": "Qt",
-      "level": ""
-    },
-    {
-      "name": "Jira",
-      "level": ""
-    }
+    { "name": "Git", "level": "" },
+    { "name": "JavaScript", "level": "" },
+    { "name": "HTML5", "level": "" },
+    { "name": "SASS/SCSS", "level": "" },
+    { "name": "React.js", "level": "" },
+    { "name": "Bootstrap", "level": "" },
+    { "name": "JQuery", "level": "" },
+    { "name": "MySql", "level": "" },
+    { "name": "PostgreSQL", "level": "" },
+    { "name": "C", "level": "" },
+    { "name": "C++", "level": "" },
+    { "name": "C#", "level": "" },
+    { "name": "Node.js", "level": "" },
+    { "name": "Qt", "level": "" },
+    { "name": "Jira", "level": "" }
   ],
+
   "softSkills": [
-    {
-      "name": "The ability to analyze information objectively and make reasoned judgments or decisions."
-    },
-    {
-      "name": "The ability to collaborate effectively with others towards a common goal. It includes active listening, communication, cooperation, and the willingness to contribute to the team's success."
-    },
-    {
-      "name": "The capacity to quickly acquire and apply new knowledge, skills, and competencies."
-    },
-    {
-      "name": "The ability to identify, analyze, and develop solutions to complex problems."
-    },
-    {
-      "name": "Taking initiative and demonstrating a proactive mindset in anticipating and addressing issues or opportunities."
-    }
+    { "name": "Ability to analyse information objectively and make judgements or reasoned decisions." },
+    { "name": "Ability to collaborate effectively with others towards a common goal. It includes active listening, communication, cooperation and willingness to contribute to the success of the team." },
+    { "name": "Ability to rapidly acquire and apply new knowledge, skills and competences." },
+    { "name": "Ability to identify, analyse and develop solutions to complex problems." },
+    { "name": "Take initiative and demonstrate a proactive mindset in anticipating and addressing problems or opportunities." }
   ]
 }

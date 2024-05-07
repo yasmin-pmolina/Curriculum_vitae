@@ -21,7 +21,7 @@ class Languages extends Component {
 
     render() {
 
-        const data = this.props.data;
+        const {data, labels} = this.props;
         let htmlList = [];
         let contexpfd =  require.context("../models/certificates", true, /.pdf$/)
         let certfPdf = "";
@@ -41,7 +41,7 @@ class Languages extends Component {
             <span className="">
                 <div className="mb-2 ms-1">
                     <SvgComponent name="icon-bi-translate.svg" colorIcon={colorIconDefault} className="me-1 icon-format" />
-                    <span className="fw-bolder">IDIOMAS</span>
+                    <span className="fw-bolder">{labels.languages ? labels.languages.toUpperCase():"LANGUAGES"}</span>
                 </div>
                 <span className="paragraph"><ListItem data={htmlList} /></span>
             </span>
